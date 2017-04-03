@@ -3,6 +3,7 @@
 	width: 100%;
 	margin: 0;
 	padding: 0 ;
+    padding-bottom: 1%;
 }
 
 .menu ul{
@@ -11,7 +12,7 @@
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #843951;
     list-style: none;	
     justify-content: center;
 }
@@ -44,21 +45,85 @@
     background: red;
 }
 
+body{
+    background: #F3F3F3;
+    margin: 0;
 
+}
+
+fieldset{
+    padding-top: 1%;
+    margin: 0 6%;
+    background: white;
+}
+
+legend{
+    text-align: center;
+    text-shadow: 2px;
+    font-size: 30px;
+}
 .mainbody{
  display: flex;
  flex-direction: row;
  padding-top: 2%;
 	}
 
-.leftside{
-	width: 32%;
-	text-align: left;
-	font-weight: bold;
-	margin-left:8%;
+.info{
+    width: 60%;
+    margin-left: 4%;
+    
 }
 
-.rightside{
-	width: 60%;
-	text-align: left;
+.photo img{
+    width: 150px;
+    height: 150px;
+    padding-top: 0%;
+    
+}
+
+.education{
+    display: flex;
+    flex-direction: row;
+}
+
+.experience{
+    display: flex;
+    flex-direction: row;
+}
+.label{
+    width: 10%;
+    margin-left: 8%;
+    font-weight: bold;
+}
+
+.institute{
+    width: 60%;
+    margin-left: 5%;
+    padding-top: 1.5%;
+
+}
+
+.year{
+    width:30%;
+    text-align: left;
+    padding-top: 1.5%;
+}
+
+.institute label{
+    color: red;
+}
+
+.skill{
+    display: flex;
+    flex-direction: row;
+}
+
+
+footer{
+    background: #E4E4E4;
+}
+
+.copyright{
+    text-align: center;
+    padding: 2% 0;
 }
