@@ -1,3 +1,6 @@
+/*Name: Bijaya Thapa Magar, Student ID: 17439839*/
+
+/*This code is for menu*/
 .menu{
 	text-align: center;
 	width: 100%;
@@ -52,7 +55,6 @@ fieldset{
 
 legend{
     text-align: center;
-    text-shadow: 2px;
     font-size: 30px;
 }
 
@@ -64,12 +66,14 @@ label{
     font-weight: bold;
     padding: 0.5% 0;
     margin-left: 4%;
+    font-family: 'Aclonica'; /* A type of font*/
 }
 
 .detail{
     width: 60%;
     padding: 0.5% 0;
     margin-left: 4%;
+    font-family: 'Aldrich'; /* A type of font*/
 }
 
 .birth{
@@ -95,7 +99,7 @@ label{
 
 .exp{
     display: flex;
-    flex-direction: row;
+    flex-direction: row; /* Displays div class in row*/
 }
 
 .skill{
@@ -105,7 +109,7 @@ label{
 
 .institute{
     display: flex;
-    flex-direction: column;
+    flex-direction: column; /* Displays div class in column*/
     width: 100%;
     margin-left: 12%;
 }
@@ -134,14 +138,17 @@ label{
 .year{
     width: 30%;
     padding: 0.5% 0;
+    font-family: 'Aldrich';
 }
 
 /* Following codes are used to make the webpage responsive. The layout of the webpage changes when the width of webpage is less than 500px*/
-@media only screen and (max-width: 500px) {
+/*@media is use to make website respionsive*/
+@media only screen and (max-width: 690px){
 
 legend{
     font-size: 20px;
 }
+
 .menu ul{
     display: flex;
     flex-direction: column;
@@ -152,6 +159,7 @@ legend{
     list-style: none;   
     justify-content: center;
 }
+
 .birth{
     display: flex;
     flex-direction: column;
