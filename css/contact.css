@@ -106,7 +106,7 @@ input[type=number], select {
 /*This code makes change in the submit box*/
 input[type=submit]{
     cursor: pointer;
-    background-color: #white;
+    background-color: white;
     border: none;
     border-radius: 6px;
     color: black;
@@ -152,8 +152,12 @@ footer{
 }
 
 /*This code hides the image when the site becomes responsive*/
-.image img{
+.image{
     display: none;
+}
+
+.detail{
+    width: 100%;
 }
 
 }

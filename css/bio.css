@@ -53,9 +53,11 @@
 	flex-direction: row;
     padding-top:1%;
     padding-bottom: 1.5%;
+    width: 100%;
 }
+
 .text{
-	width: 60%;
+	width: 50%;
 	font-size: 20px;
     margin: 0 2%;
 	background: White;
@@ -88,8 +90,6 @@ a{
 body{
 	background: #F3F3F3;
 	margin: 0;
-    background-repeat: no-repeat;
-
 }
 
 footer{
@@ -114,13 +114,13 @@ footer{
     justify-content: center;
 }
 
-.about{
-    display: flex;
-    flex-direction: column;
-}
-
 /*This code hides the image when site becomes responsive*/
-.image img{
+.image{
     display: none;
 }
+
+.text{
+    width: 100%;
+}
+
 }
