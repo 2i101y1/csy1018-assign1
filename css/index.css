@@ -14,6 +14,7 @@
     background-color: #843951;
     list-style: none;	
     justify-content: center;
+    font-family: 'Aclonica';
 }
 
 
@@ -35,15 +36,6 @@
     background: green;
 }
 
-.menu ul li a:active {
-    display: block;
-    text-decoration: none;
-    color: white;
-    text-align: center;
-    padding: 16px 18px;
-    background: red;
-}
-
 
 body{
 	background: #F3F3F3;
@@ -52,13 +44,14 @@ body{
 
 .body{
 	margin:0 4% ;
-	padding-top: 0px;
+	padding-top: 0;
 	background: white;
 }
 
 .body p{
 	text-align: center;
-	font-size: 35px;
+	font-size: 15px;
+    font-family: 'Aldrich';
 }
 
 
@@ -93,6 +86,16 @@ body{
 	 font-size: 15px;
 	 margin-right: 3%;
 	 margin-left: 3%;
+     padding-top: 1%;
+}
+
+
+label{
+    font-family: 'Aclonica';
+}
+
+.aboutme p{
+    font-family: 'Aldrich';
 }
 
 footer{

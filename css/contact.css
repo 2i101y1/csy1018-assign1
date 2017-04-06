@@ -6,7 +6,6 @@ body{
 }
 
 form{
- padding-top: 2%;
  display: block;
 }
 
@@ -27,6 +26,7 @@ form{
     background-color: #843951;
     list-style: none;   
     justify-content: center;
+    font-family: 'Aclonica';
 }
 
 .menu ul li a {
@@ -51,6 +51,7 @@ form{
 .form{
      display: flex;
      flex-direction: row;
+     width: 100%;
 }
 
 .detail{
