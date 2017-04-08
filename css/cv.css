@@ -1,5 +1,13 @@
 /*Name: Bijaya Thapa Magar, Student ID: 17439839*/
 
+/*This is for header*/
+header{
+    font-family: 'Aclonica';
+    font-size: 25px;
+    text-align: center;
+    padding: 1% 0;
+}
+
 /*This code is for menu*/
 .menu{
 	text-align: center;
@@ -142,6 +150,9 @@ label{
     font-family: 'Aldrich';
 }
 
+a{
+    text-decoration: none;
+}
 /* Following codes are used to make the webpage responsive. The layout of the webpage changes when the width of webpage is less than 500px*/
 /*@media is use to make website respionsive*/
 @media only screen and (max-width: 690px){
